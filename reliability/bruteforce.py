@@ -1,5 +1,7 @@
 from sympy.parsing.sympy_parser import parse_expr
 
+p = sympy.symbols('p')
+
 def relpoly(G):
 	rel = _recursive(G)
 	return parse_expr(rel)
