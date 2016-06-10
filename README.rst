@@ -1,4 +1,4 @@
-Sample Module Repository
+Reliability Polynomial
 ========================
 
 This simple project is an example repo for Python projects.
