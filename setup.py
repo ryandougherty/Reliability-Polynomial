@@ -10,13 +10,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='reliability-polynomial',
     version='0.0.1',
-    description='Sample package for Python-Guide.org',
+    description='Reliability Polynomial',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Ryan Dougherty',
+    author_email='ryan.dougherty@asu.edu',
+    url='https://github.com/ryandougherty/Reliability-Polynomial',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
