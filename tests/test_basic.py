@@ -1,16 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from .context import sample
+from .context import reliability
 
-import unittest
+import networkx as nx
 
-
-class BasicTestSuite(unittest.TestCase):
-    """Basic test cases."""
-
+class TestEmpty():
     def test_absolute_truth_and_meaning(self):
-        assert True
-
-
-if __name__ == '__main__':
-    unittest.main()
+    	s = reliability.brute_force.relpoly(nx.empty_graph())
+    	assertEqual(s, [0])
